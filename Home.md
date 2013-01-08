@@ -4,8 +4,8 @@ This wiki is where we maintain living documents that are relevant to people who 
 
 # Active Development on WPEC
 * [Development Schedule](https://github.com/wp-e-commerce/WP-e-Commerce/wiki/Development-Schedule)
-* 3.8.10 Roadmap
-* 3.8.10 Tickets
+* Roadmap
+* [Current milestone tickets (3.8.10)](https://github.com/wp-e-commerce/WP-e-Commerce/issues?labels=&milestone=4&page=1&sort=updated&state=open)
 
 # How to contribute code
 * Coding standard
