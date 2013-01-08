@@ -5,7 +5,7 @@ This page provides details on WPEC's development schedule, including code freeze
 * **February 10th**: Feature freeze, alpha starts
 * **February 17th**: Code freeze, beta starts
 * **February 24th**: Release candidates
-* **February 30th**: Official release
+* **March 2nd**: Official release
 
 # 3.9 (future)
 * **February 24th**: Development starts
