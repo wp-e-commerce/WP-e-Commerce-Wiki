@@ -16,3 +16,7 @@ This wiki is where we maintain living documents that are relevant to people who 
 # How to report issues
 * What makes a perfect issue ticket?
 * Issue labels and workflow
+
+# Translating WPEC
+* How to get involved
+* Using GlotPress
