@@ -4,7 +4,7 @@ First you need to prepare a local git copy of our repo as well as your fork.
 
 # Setting up your local repo
 
-You can skip this section and proceed to "Pull Request" if you already got this under control.
+You can skip this section and proceed to [Pull Request](#pull-request) if you already got this under control.
 
 ## Clone WP e-Commerce to your local machine
 Use either of these commands:
@@ -28,7 +28,7 @@ Fetch your fork's contents so that it's all present in your local index.
 
 Confirm that all of your fork's branches and tags are all tracked by running `git remote show my_fork`.
 
-# Pull request
+# <a name="pull-request"></a>Submitting pull request
 
 Once you're done preparing your local copy, you're ready to make your change and submit a pull request.
 
