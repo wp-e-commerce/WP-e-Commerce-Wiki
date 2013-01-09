@@ -221,7 +221,7 @@ That's not to say we should be too conservative. It's natural that over the year
 
 - If the filter is supposed to be used only by WPEC core, make it clear by adding prefixing it with "_" .
 
-== JavaScript ==
+# JavaScript
 Only three things:
 
 * [Read "JavaScript: The Good Parts"](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742).
