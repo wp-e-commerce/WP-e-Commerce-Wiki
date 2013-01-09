@@ -4,6 +4,7 @@ GitHub provides a built-in feature to merge pull requests automatically, however
 
 * **The commit timeline is messed up**. Below is an example, where `fork` doesn't rebase itself upon the latest development on `origin`.
 
+
 	A____B___C___D    origin
 	 \_E___F___G      fork
 
