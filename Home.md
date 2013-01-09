@@ -9,7 +9,7 @@ This wiki is where we maintain living documents that are relevant to people who 
 
 # How to contribute code
 * [Coding standard](wiki/Coding-Standards-and-Code-Quality)
-* Submitting code
+* [Submitting code](wiki/Submitting-Code)
 * Code review
 * Merging pull requests
 
