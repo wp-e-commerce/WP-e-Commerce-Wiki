@@ -1,4 +1,4 @@
-WP e-Commerce has been translated into a dozen different languages. However as we make changes to the source code, many bundled language packs have become outdated. See our current i18n progress and dive in to help!
+WP e-Commerce has been translated into a dozen different languages. However as we make changes to the source code, many bundled language packs have become outdated. See our [current i18n progress](i18n-Status) and dive in to help!
 
 # How to get involved
 
