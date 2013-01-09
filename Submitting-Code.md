@@ -1,6 +1,6 @@
 First you need to prepare a local git copy of our repo as well as your fork.
 
-# Prepare your local repo
+# Setting up your local repo<a name="setting-up"></a>
 
 You can skip this section and proceed to "Pull Request" if you already got this under control.
 
@@ -31,7 +31,7 @@ Confirm that all of your fork's branches and tags are all tracked by running `gi
 Once you're done preparing your local copy, you're ready to make your change and submit a pull request.
 
 ## Step 1: Make your change
-If you follow the instructions in "Prepare your local repo" section, the "origin" (which is the official WPEC repo) and "fork" (which is your fork) should be in the same local git repo. The command line examples below continue from that setup.
+If you follow the instructions in [Setting up your local repo](#setting-up) section, the "origin" (which is the official WPEC repo) and "fork" (which is your fork) should be in the same local git repo. The command line examples below continue from that setup.
 
 Now you need to create a local master branch for your fork's `master` branch:
 
