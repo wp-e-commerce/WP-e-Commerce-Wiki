@@ -15,7 +15,7 @@ This wiki is where we maintain living documents that are relevant to people who 
 
 # How to report issues
 * [What makes a perfect issue ticket?](wiki/Creating-issue-tickets)
-* Issue labels and workflow
+* [Issue labels and workflow](wiki/Issue-Labels-and-Workflow)
 
 # Translating WPEC
 * How to get involved
