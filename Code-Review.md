@@ -16,4 +16,4 @@ A few guidelines for code reviewer:
 
 * If after a week and there is no response from the code submitter regarding your feedback, feel free to take over, and clone his branch to your own fork. Or you can assign another core committer to it.
 
-* Don't use GitHub automatic merging to merge pull requests. See [Merging pull requests](wiki/Merging-Pull-Requests) for an explanation and the proper way to do so.
+* Don't use GitHub automatic merging to merge pull requests. See [Merging pull requests](Merging-Pull-Requests) for an explanation and the proper way to do so.
