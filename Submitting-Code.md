@@ -1,6 +1,8 @@
 First you need to prepare a local git copy of our repo as well as your fork.
 
-# Setting up your local repo<a name="setting-up"></a>
+<a name="setting-up"></a>
+
+# Setting up your local repo
 
 You can skip this section and proceed to "Pull Request" if you already got this under control.
 
