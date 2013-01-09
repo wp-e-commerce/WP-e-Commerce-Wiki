@@ -11,7 +11,7 @@ This wiki is where we maintain living documents that are relevant to people who 
 * [Coding standards and code quality](wiki/Coding-Standards-and-Code-Quality)
 * [Submitting code](wiki/Submitting-Code)
 * [Code review](wiki/Code-Review)
-* Merging pull requests
+* [Merging pull requests](wiki/Merging-Pull-Requests)
 
 # How to report issues
 * What makes a perfect issue ticket?
