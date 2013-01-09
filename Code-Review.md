@@ -10,7 +10,7 @@ A few guidelines for code reviewer:
 
 * First start with reading the code and try to detect as many bugs as possible. If bugs are found at this stage, you can skip the testing and give your feedback right away. If no bugs are found, proceed to actually test the code.
 
-* Make sure the code submitted adheres to our [coding standards and code quality guidelines](wiki/Coding-Standards-and-Code-Quality).
+* Make sure the code submitted adheres to our [coding standards and code quality guidelines](Coding-Standards-and-Code-Quality).
 
 * When reviewing a pull request, use the "Files Changed" tab to comment directly on the diff. By doing so your comment will appear along with the relevant code snippet.
 
