@@ -6,7 +6,7 @@ Use either of these commands:
 	git clone git@github.com:wp-e-commerce/WP-e-Commerce.git
 	git clone https://github.com/wp-e-commerce/WP-e-Commerce.git
 
-# Step 2: Fork, clone and fetch
+# Step 2: Fork and fetch
 Fork WP e-Commerce by clicking that little "Fork" button on the top right of this page. Now you'll have your own {your_user_name}/WP-e-Commerce repo on GitHub.
 
 Now you need to add your fork as a "remote" source on your local copy of WP e-Commerce. Use either of these commands, replacing "your_user_name" with, well, your user name.
