@@ -4,13 +4,13 @@ GitHub provides a built-in feature to merge pull requests automatically, however
 
 * **The commit timeline is messed up**. Below is an example, where `fork` doesn't rebase itself upon the latest development on `origin`.
 
-	__A____B___C___D    origin
-	   \_E___F___G      fork
+	A____B___C___D    origin
+	 \_E___F___G      fork
 
 This is what happens when you merge `fork` into `origin`:
 
-	__A____B___C___D__H     origin
-	   \_E___F___G___/      fork
+	A____B___C___D__H     origin
+	 \_E___F___G___/      fork
 
 Note that `H` is the merge bubble that we described above. If we do a `git log`, here's the order of the commits we now have on origin: `A E B F C G D H`.
 
