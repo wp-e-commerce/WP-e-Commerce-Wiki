@@ -1,3 +1,5 @@
+This document provides guidelines for coding standards and code quality. These guidelines should be adhered to as much as possible when you contribute code to WPEC. But if something doesn't make sense, feel free to question or challenge it.
+
 # First and foremost
 We're striving to adhere to WordPress' coding standards as much as possible, so here are 3 must-read guidelines from WordPress Codex:
 
