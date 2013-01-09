@@ -1,6 +1,10 @@
 This document provides guidelines for creating issue tickets. In order to save time and facilitate communication between community members, please adhere to these guidelines as much as you can.
 
-There are 3 types of issue tickets: bug report, enhancement, feature. A **feature ticket** is a proposal for a completely new feature that was not present before. The difference between bug report and enhancement tickets is a bit more subtle. When you encounter a feature that doesn't behave like you want it to, you should ask yourself, _"Does this feature work for me at all?"_. If the answer is a decisive "Nope!", then it is most likely a bug report that you need to file. If the answer is "Well, sort of, but I want this and that", then it is more likely an enhancement that you're requesting.
+There are 3 types of issue tickets: **bug report**, **enhancement**, **feature**.
+
+A feature ticket is a proposal for a completely new feature that was not present before.
+
+The difference between bug report and enhancement tickets is a bit more subtle. When you encounter a feature that doesn't behave like you want it to, you should ask yourself, _"Does this feature work for me at all?"_. If the answer is a decisive "Nope!", then it is most likely a bug report that you need to file. If the answer is "Well, sort of, but I want this and that", then it is more likely an enhancement that you're requesting.
 
 # When reporting a bug
 Please make sure your bug report answers the following questions:
