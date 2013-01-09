@@ -18,5 +18,5 @@ This wiki is where we maintain living documents that are relevant to people who 
 * [Issue labels and workflow](wiki/Issue-Labels-and-Workflow)
 
 # Translating WPEC
-* How to get involved
-* Using GlotPress
+* [How to get involved](wiki/Getting-involved-with-translation)
+* [Current status](wiki/i18n-Status)
