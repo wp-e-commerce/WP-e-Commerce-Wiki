@@ -22,7 +22,7 @@ That looks really confusing, and you can hardly `git bisect` through that if tha
 
 This would require you to use the git command line.
 
-Let's say you're merging a pull request from a fork: `JustinSainton/wp-e-commerce`, branch name is `ui-improvement`. From here on we assume that you set up your local copy [using the instructions in Submitting Code](wiki/Submitting-Code#wiki-setting-up). `origin` is the official WPEC repo.
+Let's say you're merging a pull request from a fork: `JustinSainton/wp-e-commerce`, branch name is `ui-improvement`. From here on we assume that you set up your local copy [using the instructions in Submitting Code](Submitting-Code#wiki-setting-up). `origin` is the official WPEC repo.
 
 First, you need to fetch the fork to your local copy
 
