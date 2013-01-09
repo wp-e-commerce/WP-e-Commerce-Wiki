@@ -20,7 +20,9 @@ Example:
 
 	class Person {
 		public function can_drink_alcohol() {
-			$year_of_birth = db_query( "SELECT year FROM people WHERE id=%d", $this->id );
+			global $wpdb;
+
+			$year_of_birth = $wpdb->query( $wpdb->prepare( "SELECT year FROM people WHERE id = %d", $this->id ) );
 
 			$age = date('Y') - $year_of_birth;
 
@@ -32,7 +34,9 @@ should be broken down to:
 
 	class Person {
 		public function get_year_of_birth() {
-			return db_query( "SELECT year FROM people WHERE id=%d", $this->id );
+			global $wpdb;
+
+			return $wpdb->query( $wpdb->prepare( "SELECT year FROM people WHERE id = %d", $this->id ) );
 		}
 
 		public function get_age() {
