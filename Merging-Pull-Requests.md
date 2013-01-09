@@ -2,8 +2,9 @@ GitHub provides a built-in feature to merge pull requests automatically, however
 
 * **Merge bubbles are created.** These are the commit messages that go "Merge branch xxx of xxx" right after the last commit of the branch being merged with. These commits cluster up the history.
 
-* **The commit timeline is messed up**. Below is an example, where `fork` doesn't rebase itself upon the latest development on `origin`.
+* **The commit timeline is messed up**.
 
+Below is an example, where `fork` doesn't rebase itself upon the latest development on `origin`.
 
 	A____B___C___D    origin
 	 \_E___F___G      fork
