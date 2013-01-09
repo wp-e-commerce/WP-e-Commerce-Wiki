@@ -2,7 +2,7 @@ WP e-Commerce has been translated into a dozen different languages. However as w
 
 # How to get involved
 
-First, send @garyc40 a private message on GitHub, and Gary will get in touch with you. You will be given access to our GlotPress system, which manage translations.
+First, send an email to gary@instinct.co.nz introducing yourself, and Gary will get in touch with you. You will be given access to our GlotPress system, which manage translations.
 
 Then you can use GlotPress to translate WPEC strings one by one into your language. The UI is pretty easy to use. Or you can use your own translation software (which can use .pot file), export .po and .mo files and send it to us.
 
