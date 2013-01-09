@@ -2,7 +2,7 @@ First you need to prepare a local git copy of our repo as well as your fork.
 
 # Prepare your local repo
 
-You can skip this section if you already got this under control.
+You can skip this section and proceed to "Pull Request" if you already got this under control.
 
 ## Clone WP e-Commerce to your local machine
 Use either of these commands:
