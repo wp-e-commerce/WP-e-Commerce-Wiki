@@ -141,6 +141,7 @@ Try to design your class so that attributes are not directly accessed like this:
 To avoid doing this, there are 2 ways:
 
 * For data attributes (those that are pulled from the database), use setters and getters. Data model objects are usually used extensively by third party developers, so getter & setter functions for these particular attributes offer a certain degree of flexibility while still provide ample room for providing backward compatibility.
+
 	class MyDataObject
 	{
 		...
