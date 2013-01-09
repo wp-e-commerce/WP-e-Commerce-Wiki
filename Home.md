@@ -3,7 +3,7 @@ Welcome to WP e-Commerce development wiki!
 This wiki is where we maintain living documents that are relevant to people who are interested in contributing code or feedback to WPEC. If you're looking for user guide, you can find it on [docs.getshopped.org](http://docs.getshopped.org).
 
 # Active Development on WPEC
-* [Development Schedule](https://github.com/wp-e-commerce/WP-e-Commerce/wiki/Development-Schedule)
+* [Development Schedule](wiki/Development-Schedule)
 * [Roadmap](https://github.com/wp-e-commerce/WP-e-Commerce/wiki/Roadmap)
 * [Current milestone tickets (3.8.10)](https://github.com/wp-e-commerce/WP-e-Commerce/issues?labels=&milestone=4&page=1&sort=updated&state=open)
 
