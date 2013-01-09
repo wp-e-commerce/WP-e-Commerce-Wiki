@@ -18,8 +18,7 @@ Each function should only do one thing. If it's taking care of too many operatio
 
 Example:
 
-	class Person
-	{
+	class Person {
 		public function can_drink_alcohol() {
 			$year_of_birth = db_query( "SELECT year FROM people WHERE id=%d", $this->id );
 
@@ -31,8 +30,7 @@ Example:
 
 should be broken down to:
 
-	class Person
-	{
+	class Person {
 		public function get_year_of_birth() {
 			return db_query( "SELECT year FROM people WHERE id=%d", $this->id );
 		}
@@ -72,8 +70,7 @@ Object Oriented Programming is a good idea. But use it wisely. Not everything is
 Example:
 
 This class should be broken down:
-	class Person
-	{
+	class Person {
 		public function get_year_of_birth() {
 			return db_query( "SELECT year FROM people WHERE id=%d", $this->id );
 		}
@@ -98,8 +95,7 @@ This class should be broken down:
 	}
 
 It should be broken down into:
-	class Person
-	{
+	class Person {
 		public function get_year_of_birth() {
 			return db_query( "SELECT year FROM people WHERE id=%d", $this->id );
 		}
@@ -123,8 +119,7 @@ It should be broken down into:
 		return $person->get_age() >= 21;
 	}
 
-	class Money_Book
-	{
+	class Money_Book {
 		public function __construct( $person ) {
 			$this->person = $person;
 			$this->fetch_data();
@@ -142,8 +137,7 @@ To avoid doing this, there are 2 ways:
 
 * For data attributes (those that are pulled from the database), use setters and getters. Data model objects are usually used extensively by third party developers, so getter & setter functions for these particular attributes offer a certain degree of flexibility while still provide ample room for providing backward compatibility.
 
-	class MyDataObject
-	{
+	class MyDataObject {
 		...
 
 		function get( $attribute ) {
