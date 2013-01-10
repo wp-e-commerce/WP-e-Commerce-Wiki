@@ -143,39 +143,39 @@ To avoid doing this, there are 2 ways:
 
 * For data attributes (those that are pulled from the database), use setters and getters. Data model objects are usually used extensively by third party developers, so getter & setter functions for these particular attributes offer a certain degree of flexibility while still provide ample room for providing backward compatibility.
 
-	class MyDataObject {
-		...
+		class My_Data_Object {
+			...
 
-		function get( $attribute ) {
-			return $this->data[$attribute];
+			function get( $attribute ) {
+				return $this->data[$attribute];
+			}
+
+			function set( $attribute, $value ) {
+				$this->data[$attribute] = $value;
+			}
+
+			function save() {
+				global $wpdb;
+				$wpdb->query( 'UPDATE etc.' );
+			}
+
+			// or better, separate getters / setters for each attributes if these
+			// attributes need guarding
+			function get_price() {
+				return (float) $this->data['price'];
+			}
+
+			// this is an instance where an attribute needs guarding
+			function set_price( $price ) {
+				// convert a formatted string like 12,345.67 to float first
+				if ( is_string( $price ) )
+					$price = convert_string_to_float( $price );
+				else ( ! is_numeric( $price ) )
+					return; // or return a WP_Error
+
+				$this->data['price'] = $price;
+			}
 		}
-
-		function set( $attribute, $value ) {
-			$this->data[$attribute] = $value;
-		}
-
-		function save() {
-			global $wpdb;
-			$wpdb->query( 'UPDATE etc.' );
-		}
-
-		// or better, separate getters / setters for each attributes if these
-		// attributes need guarding
-		function get_price() {
-			return (float) $this->data['price'];
-		}
-
-		// this is an instance where an attribute needs guarding
-		function set_price( $price ) {
-			// convert a formatted string like 12,345.67 to float first
-			if ( is_string( $price ) )
-				$price = convert_string_to_float( $price );
-			else ( ! is_numeric( $price ) )
-				return; // or return a WP_Error
-
-			$this->data['price'] = $price;
-		}
-	}
 
 * For attributes that do not represent data columns, avoid creating setters (getters might be fine in some cases), and instead focus on what you want to do with that attribute. For example, `$bank_account->withdraw()` and `$bank_account->deposit()` but avoid `$bank_account->set_balance()`.
 
