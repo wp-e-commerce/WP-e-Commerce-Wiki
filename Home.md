@@ -14,6 +14,7 @@ This wiki is where we maintain living documents that are relevant to people who 
 * [Merging pull requests](wiki/Merging-Pull-Requests)
 
 # How to report issues
+* [Reporting a security issue](wiki/Reporting-a-security-issue)
 * [What makes a perfect issue ticket?](wiki/Creating-issue-tickets)
 * [Issue labels and workflow](wiki/Issue-Labels-and-Workflow)
 
