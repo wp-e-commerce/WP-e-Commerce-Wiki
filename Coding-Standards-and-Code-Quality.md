@@ -74,6 +74,7 @@ Object Oriented Programming is a good idea. But use it wisely. Not everything is
 Example:
 
 This class should be broken down:
+
 	class Person {
 		public function get_year_of_birth() {
 			return db_query( "SELECT year FROM people WHERE id=%d", $this->id );
@@ -99,6 +100,7 @@ This class should be broken down:
 	}
 
 It should be broken down into:
+
 	class Person {
 		public function get_year_of_birth() {
 			return db_query( "SELECT year FROM people WHERE id=%d", $this->id );
@@ -134,7 +136,7 @@ It should be broken down into:
 		}
 	}
 
-### Avoid direct attribute access and magic methods
+### Avoid direct attribute access
 Try to design your class so that attributes are not directly accessed like this: `$object->attribute`. Yes, WordPress core does that a lot, but no, we don't want to do that in WPEC. The reason being, attributes are prone to changes. If we let third party developers utilize the class API by accessing these attributes directly, making changes and maintaining backward compatibility will be very difficult.
 
 To avoid doing this, there are 2 ways:
@@ -176,6 +178,12 @@ To avoid doing this, there are 2 ways:
 	}
 
 * For attributes that do not represent data columns, avoid creating setters (getters might be fine in some cases), and instead focus on what you want to do with that attribute. For example, `$bank_account->withdraw()` and `$bank_account->deposit()` but avoid `$bank_account->set_balance()`.
+
+## Avoid magic methods
+
+Magic methods, especially `__get()` and `__set()` , should be avoided. We're not saying they're bad, we just don't want any code that implies magic and lets attributes be accessed and modified directly. Try to come up with a policy of your class' behavior: what should be accessed or modified from the outside, and what should not. And then create explicit getters / setters if necessary from there.
+
+We know WordPress core uses those magic methods in a few places, but no thanks.
 
 # Debugging
 
