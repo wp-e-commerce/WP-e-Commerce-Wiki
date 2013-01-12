@@ -32,6 +32,8 @@ Confirm that all of your fork's branches and tags are all tracked by running `gi
 
 Once you're done preparing your local copy, you're ready to make your change and submit a pull request.
 
+It's generally recommended that you make a pull request as soon as you made a first commit to your fork (even though that is only the first commit of many commits to come), so that other developers can review your code as you progress. But if you prefer quiet, feel free to complete all your changes before submitting a pull request.
+
 ## Step 1: Make your change
 If you follow the instructions in [Setting up your local repo](#setting-up) section, the "origin" (which is the official WPEC repo) and "fork" (which is your fork) should be in the same local git repo. The command line examples below continue from that setup.
 
