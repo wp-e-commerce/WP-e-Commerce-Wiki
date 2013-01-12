@@ -66,19 +66,20 @@ Once the pull request has been submitted, you'll need to monitor the original is
 
 Also, you need to make sure your local copy as well as fork is always updated with latest changes in the official WPEC repo. Do these maintenance routines regularly:
 
-Run these to pull updates to your origin's master branch:
+Run these to pull updates to your local master branch (which is tracking origin/master):
 
 	git fetch origin
 	git checkout master
 	git rebase origin/master
 
-Then run these to update your fork:
+Then run these to update your fork (`push -f` makes sure any diverging history gets overridden):
 
 	git checkout my-fork-master
 	git rebase master
-	git push fork master
+	git push -f fork master
 
 Finally, rebase your pull request's branch upon your latest fork's master (or origin's master, either way is fine):
 
 	git checkout improve-coupon-ui
 	git rebase master
+	git push -f fork improve-coupon-ui
