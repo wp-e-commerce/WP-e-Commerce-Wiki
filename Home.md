@@ -18,6 +18,10 @@ This wiki is where we maintain living documents that are relevant to people who 
 * [What makes a perfect issue ticket?](wiki/Creating-issue-tickets)
 * [Issue labels and workflow](wiki/Issue-Labels-and-Workflow)
 
+# How to contribute documentation
+* [Contributing to Wiki](wiki/Contributing-to-Wiki)
+* [User documentation](wiki/User-documentation)
+
 # Translating WPEC
 * [How to get involved](wiki/Getting-involved-with-translation)
 * [Current status](wiki/i18n-Status)
