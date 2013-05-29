@@ -7,7 +7,7 @@ We're striving to adhere to WordPress' coding standards as much as possible, so 
 * [Data Validation](http://codex.wordpress.org/Data_Validation)
 * [Internationalization](http://codex.wordpress.org/I18n_for_WordPress_Developers)
 
-_There are tools available that will check your code against the wordpress coding standard and suggest changes.  These tools can save you valuable time by making sure submitted code is consistent with the other code in the repository, and with wordpress. One such tool is [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer/wiki).  PHP Code Sniffer is able to use the definitions from the [WordPress Coding Standards for PHP_CodeSniffer](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards) and provide you feedback on your code_.
+_There are tools available that will check your code against the wordpress coding standard and suggest changes.  These tools can save you valuable time by making sure submitted code is consistent with the other code in the repository, and with wordpress. One such tool is [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer/wiki).  PHP Code Sniffer is able to use the definitions from the [WordPress Coding Standards for PHP_CodeSniffer](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards) and provide you feedback on your code. You can read more about using CodeSniffer for Wordpress development here [Wordpress CodeSniffer](http://ma.tt/2009/04/wordpress-codesniffer/)._
 
 # Some general guidelines
 
