@@ -12,6 +12,7 @@ This wiki is where we maintain living documents that are relevant to people who 
 * [Submitting code](wiki/Submitting-Code)
 * [Code review](wiki/Code-Review)
 * [Merging pull requests](wiki/Merging-Pull-Requests)
+* [Tools](wiki/Tools)
 
 # How to report issues
 * [Reporting a security issue](wiki/Reporting-a-security-issue)
